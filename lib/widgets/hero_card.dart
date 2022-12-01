@@ -1,5 +1,6 @@
-import 'package:fkn_labs_2022/data/hero_data.dart';
 import 'package:flutter/material.dart';
+
+import 'package:fkn_labs_2022/data/hero_data.dart';
 
 class HeroCard extends StatelessWidget {
   final HeroData heroData;
@@ -18,7 +19,7 @@ class HeroCard extends StatelessWidget {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(15.0),
           image: DecorationImage(
-            image: AssetImage(heroData.pathToImage),
+            image: NetworkImage(heroData.pathToImage),
             fit: BoxFit.cover,
           ),
         ),
