@@ -3,9 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:fkn_labs_2022/data/hero_data.dart';
 
 class HeroPage extends StatelessWidget {
-  const HeroPage({super.key, required this.index});
-
   final int index;
+  final HeroData heroData;
+
+  const HeroPage({super.key, required this.heroData, required this.index});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +21,7 @@ class HeroPage extends StatelessWidget {
             tag: 'hero/$index',
             child: Stack(children: [
               Image.network(
-                heroesData[index].pathToImage,
+                heroData.pathToImage,
                 fit: BoxFit.cover,
                 height: double.infinity,
                 width: double.infinity,
@@ -33,7 +34,7 @@ class HeroPage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          heroesData[index].heroName,
+                          heroData.heroName,
                           style: const TextStyle(
                               color: Colors.white,
                               fontFamily: 'Roboto',
@@ -42,7 +43,7 @@ class HeroPage extends StatelessWidget {
                         ),
                         const SizedBox(height: 13),
                         Text(
-                          heroesData[index].heroDescription,
+                          heroData.heroDescription,
                           style: const TextStyle(
                               fontFamily: 'Roboto',
                               fontWeight: FontWeight.normal,
