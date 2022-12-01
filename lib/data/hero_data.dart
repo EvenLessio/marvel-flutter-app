@@ -17,19 +17,19 @@ const List<HeroData> heroesData = [
   HeroData(
       heroName: 'Deadpool',
       pathToImage:
-      'https://www.film.ru/sites/default/files/news/23869878-917934.jpg',
+      'https://mir-s3-cdn-cf.behance.net/project_modules/fs/99da3891478115.5e32bd757ea52.jpg',
       heroDescription: 'Yeah! Thats is a gun in pants',
       heroBackgroundColor: Color.fromARGB(255, 118, 3, 8)),
   HeroData(
       heroName: 'Iron Man',
       pathToImage:
-      'https://mobimg.b-cdn.net/v3/fetch/02/0225779c88b8dd25b3204bcc3e70d29d.jpeg?w=1470&r=0.5625',
+      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4ef52e34243765.5605f6d90d3b6.jpg',
       heroDescription: 'A genius billionaire playboy philanthropist',
       heroBackgroundColor: Color.fromARGB(255, 148, 21, 26)),
   HeroData(
       heroName: 'Captain America',
       pathToImage:
-      'https://i.pinimg.com/736x/88/df/6b/88df6bbd16cffc30e8c99cc18ac26cbf.jpg',
+      'https://mir-s3-cdn-cf.behance.net/project_modules/fs/90f364136203659.61f5427b48b63.jpg',
       heroDescription: 'Be strong you never know who your are inspiring',
       heroBackgroundColor: Color.fromARGB(255, 62, 79, 179)),
   HeroData(
@@ -41,19 +41,19 @@ const List<HeroData> heroesData = [
   HeroData(
       heroName: 'Doctor Strange',
       pathToImage:
-      'https://i.startfilm.ru/film/f_216865/startfilmru1317327.png',
+      'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9695e274106667.5c223d490ccf2.jpg',
       heroDescription: 'Forget everything that you think you know',
       heroBackgroundColor: Color.fromARGB(255, 6, 121, 8)),
   HeroData(
       heroName: 'Thor',
       pathToImage:
-      'https://www.soyuz.ru/public/uploads/files/3/7241894/201901311325077ae9586818.jpg',
+      'https://img5.goodfon.ru/wallpaper/nbig/9/81/thor-tor-kris-khemsvort-chris-hemsworth-molnii-boroda-molot.jpg',
       heroDescription: 'How dare you attack the son of Odin',
       heroBackgroundColor: Color.fromARGB(255, 11, 132, 186)),
   HeroData(
       heroName: 'Thanos',
       pathToImage:
-      'https://russianteleweek.ru/wp-content/uploads/2020/07/tanos-1024x576.jpg',
+      'https://img5.goodfon.ru/wallpaper/nbig/e/b2/mstiteli-voina-beskonechnosti-tanos-avengers-infinity-war-th.jpg',
       heroDescription: 'The hardest choices require the strongest wills',
       heroBackgroundColor: Color.fromARGB(255, 108, 16, 197)),
 ];
