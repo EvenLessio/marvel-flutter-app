@@ -1,5 +1,5 @@
-## fkn_labs_2022
-### mobile-dev OmSU FCS course
+## marvel-flutter-app
+### using official Marvel API
 
 Contributors: 
 * Вечернин Ростислав МКБ-901
